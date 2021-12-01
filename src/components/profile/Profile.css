@@ -1,0 +1,23 @@
+.profile {
+  text-align: center !important;
+}
+.prenoun {
+  font-size: 25px;
+  font-style: oblique;
+}
+.image-pos {
+  position: relative;
+  left: 450px;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .image-pos {
+    position: relative;
+    left: 240px;
+  }
+}
+@media (max-width: 576px) {
+  .image-pos {
+    position: relative;
+    left: 175px;
+  }
+}
